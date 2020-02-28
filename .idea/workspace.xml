@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b826601e-8dab-43a1-a49a-5f8bed6d5750" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - everything-like.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - everything-like.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - everything-like.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - everything-like.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="file_meta: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../Downloads/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WCIAMSoYJ0WDEmIulCn7bntgMA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite.xerial" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DBInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.DBInit" />
+      <module name="eveything-like" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.FileSave" />
+      <module name="eveything-like" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="eveything-like" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PinyinUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.PinyinUtil" />
+      <module name="eveything-like" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Util" />
+      <module name="eveything-like" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DBInit" />
+        <item itemvalue="Application.PinyinUtil" />
+        <item itemvalue="Application.FileSave" />
+        <item itemvalue="Application.Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b826601e-8dab-43a1-a49a-5f8bed6d5750" name="Default Changelist" comment="" />
+      <created>1578647005056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578647005056</updated>
+      <workItem from="1578647008662" duration="162000" />
+      <workItem from="1578647212685" duration="1565000" />
+      <workItem from="1578648833142" duration="543000" />
+      <workItem from="1578649399172" duration="139000" />
+      <workItem from="1578649561462" duration="1306000" />
+      <workItem from="1578650914861" duration="819000" />
+      <workItem from="1578651757240" duration="488000" />
+      <workItem from="1578652311057" duration="5908000" />
+      <workItem from="1578717380420" duration="2690000" />
+      <workItem from="1581479851685" duration="256000" />
+      <workItem from="1581489065530" duration="5355000" />
+      <workItem from="1581554509179" duration="2871000" />
+      <workItem from="1581560156326" duration="6769000" />
+      <workItem from="1581568128566" duration="1316000" />
+      <workItem from="1581641342404" duration="11737000" />
+      <workItem from="1581747659393" duration="8524000" />
+      <workItem from="1582035145810" duration="298000" />
+      <workItem from="1582159832862" duration="10332000" />
+      <workItem from="1582174100053" duration="755000" />
+      <workItem from="1582245385448" duration="69000" />
+      <workItem from="1582246712256" duration="58000" />
+      <workItem from="1582246800596" duration="10116000" />
+      <workItem from="1582333023308" duration="6082000" />
+      <workItem from="1582521556276" duration="1233000" />
+      <workItem from="1582532911489" duration="1762000" />
+      <workItem from="1582536637307" duration="3422000" />
+      <workItem from="1582594924861" duration="646000" />
+      <workItem from="1582624790219" duration="1619000" />
+      <workItem from="1582630245931" duration="842000" />
+      <workItem from="1582634469171" duration="1927000" />
+      <workItem from="1582681303308" duration="174000" />
+      <workItem from="1582716436859" duration="235000" />
+      <workItem from="1582772952421" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="34" key="#Project_Structure" timestamp="1581649890653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="34" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1581649890653" />
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581563716898">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581563716898" />
+    <state x="399" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581503281408">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1581503281408" />
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1582250511521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582250511521" />
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1582857340153">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582857340153" />
+    <state width="1388" height="231" key="GridCell.Tab.0.bottom" timestamp="1582785626511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582785626511" />
+    <state width="1388" height="231" key="GridCell.Tab.0.center" timestamp="1582785626509">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582785626509" />
+    <state width="1388" height="231" key="GridCell.Tab.0.left" timestamp="1582785626509">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582785626509" />
+    <state width="1388" height="231" key="GridCell.Tab.0.right" timestamp="1582785626510">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582785626510" />
+    <state width="1388" height="289" key="GridCell.Tab.1.bottom" timestamp="1582548367314">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="289" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582548367314" />
+    <state width="1388" height="289" key="GridCell.Tab.1.center" timestamp="1582548367313">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="289" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582548367313" />
+    <state width="1388" height="289" key="GridCell.Tab.1.left" timestamp="1582548367312">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="289" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582548367312" />
+    <state width="1388" height="289" key="GridCell.Tab.1.right" timestamp="1582548367313">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="289" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582548367313" />
+    <state x="120" y="3" key="SettingsEditor" timestamp="1582857257568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="120" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582857257568" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1582255995180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582255995180" />
+  </component>
+</project>
