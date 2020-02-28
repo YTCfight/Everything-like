@@ -56,6 +56,7 @@ public class FileSave implements ScanCallback {
             // 2.创建 JBDC 操作命令对象 statement
             ps = connection.prepareStatement(sql);
             ps.setString(1, dir.getPath());
+            System.out.println("查询：" + dir.getPath());
             // 3.执行 sql 语句
             rs = ps.executeQuery();
             // 4.处理结果集 ResultSet
