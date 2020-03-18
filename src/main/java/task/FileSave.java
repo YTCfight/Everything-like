@@ -99,7 +99,7 @@ public class FileSave implements ScanCallback {
             statement = connection.prepareStatement(sql);
             statement.setString(1, meta.getName());
             statement.setString(2, meta.getPath());
-            statement.setBoolean(3, meta.getDirectory());
+            statement.setBoolean(3, meta.getIsDirectory());
             statement.setLong(4, meta.getSize());
             // 数据库保存日期类型，可以使用数据库设置的日期格式，以字符串传入
             statement.setString(5, meta.getLastModifiedText());
@@ -127,15 +127,15 @@ public class FileSave implements ScanCallback {
             connection = DBUtil.getConnection();
             String sql = "delete from file_meta where (name = ? and path = ? and is_directory = ?)";
             // 如果是文件夹，还要删除文件夹的子文件和子文件夹
-            if (meta.getDirectory()) {
+            if (meta.getIsDirectory()) {
                 // 匹配数据库文件夹的儿子及孙子后面的辈
                 sql += " or path = ? or path like ?";
             }
             ps = connection.prepareStatement(sql);
             ps.setString(1, meta.getName());
             ps.setString(2, meta.getPath());
-            ps.setBoolean(3, meta.getDirectory());
-            if (meta.getDirectory()) {
+            ps.setBoolean(3, meta.getIsDirectory());
+            if (meta.getIsDirectory()) {
                 ps.setString(4, meta.getPath() + File.separator + meta.getName());
                 ps.setString(5, meta.getPath() + File.separator + meta.getName() + File.separator + "%");
 

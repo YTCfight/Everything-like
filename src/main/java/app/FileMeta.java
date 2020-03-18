@@ -1,12 +1,18 @@
 package app;
 
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import util.PinyinUtil;
 import util.Util;
 
 import java.io.File;
 import java.util.Date;
-import java.util.Objects;
-
+@Setter
+@Getter
+@ToString
+@EqualsAndHashCode
 public class FileMeta {
 
     // 文件名称
@@ -50,101 +56,5 @@ public class FileMeta {
         // 客户端表格控件文件大小，上次文件修改时间的设置
         sizeText = Util.parseSize(size);
         lastModifiedText = Util.parseDate(lastModified);
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        FileMeta meta = (FileMeta) o;
-        return Objects.equals(name, meta.name) &&
-                Objects.equals(path, meta.path) &&
-                Objects.equals(isDirectory, meta.isDirectory);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, path, isDirectory);
-    }
-
-    @Override
-    public String toString() {
-        return "FileMeta{" +
-                "name='" + name + '\'' +
-                ", path='" + path + '\'' +
-                ", isDirectory=" + isDirectory +
-                '}';
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
-
-    public Long getSize() {
-        return size;
-    }
-
-    public void setSize(Long size) {
-        this.size = size;
-    }
-
-    public Date getLastModified() {
-        return lastModified;
-    }
-
-    public void setLastModified(Date lastModified) {
-        this.lastModified = lastModified;
-    }
-
-    public Boolean getDirectory() {
-        return isDirectory;
-    }
-
-    public void setDirectory(Boolean directory) {
-        isDirectory = directory;
-    }
-
-    public String getSizeText() {
-        return sizeText;
-    }
-
-    public void setSizeText(String sizeText) {
-        this.sizeText = sizeText;
-    }
-
-    public String getLastModifiedText() {
-        return lastModifiedText;
-    }
-
-    public void setLastModifiedText(String lastModifiedText) {
-        this.lastModifiedText = lastModifiedText;
-    }
-
-    public String getPinyin() {
-        return pinyin;
-    }
-
-    public void setPinyin(String pinyin) {
-        this.pinyin = pinyin;
-    }
-
-    public String getPinyinFirst() {
-        return pinyinFirst;
-    }
-
-    public void setPinyinFirst(String pinyinFirst) {
-        this.pinyinFirst = pinyinFirst;
     }
 }
