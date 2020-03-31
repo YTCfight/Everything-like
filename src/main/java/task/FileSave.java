@@ -110,7 +110,7 @@ public class FileSave implements ScanCallback {
             statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new RuntimeException("文件保存失败，同学们检查一下 sql insert 语句", e);
+            throw new RuntimeException("文件保存失败，检查一下 sql insert 语句", e);
         } finally {
             // 4. 释放资源
             DBUtil.close(connection, statement);
@@ -143,7 +143,7 @@ public class FileSave implements ScanCallback {
             ps.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("删除文件信息出错，同学们检查delete语句", e);
+            throw new RuntimeException("删除文件信息出错，检查delete语句", e);
         } finally {
             DBUtil.close(connection, ps);
         }
