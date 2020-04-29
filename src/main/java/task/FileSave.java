@@ -76,7 +76,7 @@ public class FileSave implements ScanCallback {
             return metas;
         } catch (Exception e) {
             e.printStackTrace();
-            throw new RuntimeException("查询文件信息出错,同学们检查 sql 查询语句", e);
+            throw new RuntimeException("查询文件信息出错,检查 sql 查询语句", e);
         } finally {
             // 5.释放资源
             DBUtil.close(connection, ps, rs);
